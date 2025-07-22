@@ -34,6 +34,19 @@ project-root/
 └── package.json
 ```
 
+## Environment Variables
+This project uses variables given below in .env file
+```bash
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+DB_PORT=
+DB_DIALECT=
+
+PORT=
+```
+
 ## Initiliaze Sequelize CLI
 
 In order to use Sequelize CLI in the project, first initialize it
