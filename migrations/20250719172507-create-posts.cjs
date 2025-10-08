@@ -7,8 +7,7 @@ module.exports = {
       id: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.literal('(UUID())'), // MySQL UUID
-        primaryKey: true,
-        allowNull: false
+        primaryKey: true
       },
       title: {
         type: Sequelize.STRING,
